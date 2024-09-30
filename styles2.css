@@ -25,6 +25,7 @@ html, body {
     justify-content: center;
     align-items: center;
     margin-bottom: -4.5%;
+    margin-top: -5.2%;
 }
 
 .header h1 {
@@ -55,8 +56,8 @@ html, body {
     font-size: 2.3em; /* Tamaño de texto reducido */
     color: black; /* Color del texto del h2 */
     text-align: center;
-    margin-bottom: 30px; /* Espaciado ajustado */
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .content img {
@@ -66,15 +67,15 @@ html, body {
 }
 
 .content p {
-    font-size: 1.2em; /* Tamaño de texto reducido */
-    margin-top: 20px;
+    font-size: 1em; /* Tamaño de texto reducido */
 }
+
 
 .content a {
     text-decoration: none;
     color: white;
-    margin-top: 15px;
-    font-size: 1.3em; /* Tamaño de texto reducido */
+    margin-top: 35px;
+    font-size: 4em; /* Tamaño de texto reducido */
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -84,15 +85,17 @@ html, body {
     color: white;
     padding: 10px 0; /* Menor padding */
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.7em;
     flex-shrink: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 
 /* Estilos de la galería */
 .image-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px; /* Ajuste del espacio entre imágenes */
+    gap: 15px; /* Ajuste del espacio entre imágenes */
     margin-bottom: 20px;
 }
 
