@@ -1,0 +1,103 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* Evita el scroll */
+}
+
+/* Encabezado */
+.header {
+    background-image: url(img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -4.5%;
+}
+
+.header h1 {
+    font-size: 8.3em;
+    margin: 0;
+}
+
+.header p {
+    font-size: 3.5em;
+    margin-top: 92px;
+}
+
+
+/* Contenido */
+.content {
+    /* Fondo degradado de azul a blanco */
+    background: linear-gradient(to bottom, #1682C0, #A5D1EA);
+    padding: 20px 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.content h2 {
+    font-size: 2.3em; /* Tamaño de texto reducido */
+    color: black; /* Color del texto del h2 */
+    text-align: center;
+    margin-bottom: 30px; /* Espaciado ajustado */
+    margin-top: 20px;
+}
+
+.content img {
+    width: 300px; /* Tamaño reducido de las imágenes */
+    height: 200px;
+    object-fit: cover;
+}
+
+.content p {
+    font-size: 1.2em; /* Tamaño de texto reducido */
+    margin-top: 20px;
+}
+
+.content a {
+    text-decoration: none;
+    color: white;
+    margin-top: 15px;
+    font-size: 1.3em; /* Tamaño de texto reducido */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Pie de página */
+.footer {
+    background-color: #203E49;
+    color: white;
+    padding: 10px 0; /* Menor padding */
+    text-align: center;
+    font-size: 1.2em;
+    flex-shrink: 0;
+}
+
+/* Estilos de la galería */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /* Ajuste del espacio entre imágenes */
+    margin-bottom: 20px;
+}
+
+.image-grid img {
+    width: 450px; /* Tamaño reducido para que encaje en pantalla */
+    height: 300px;
+    border-radius: 20px;
+}
